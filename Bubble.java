@@ -2,17 +2,15 @@ import java.util.*;
 class BubbySort{
 	void bsort(int[] ar,int n){
 		for(int i=0; i<n; i++){
-			for(int j=1; j<n-i; j++){
+			for(int j=0; j<n-i-1; j++){
 				int temp;
-				
-				if(ar[j-1] > ar[j]){  
-                    temp = ar[j-1];  
-                    ar[j-1] = ar[j];  
-                    ar[j] = temp;  
+				if (arr[i]>ar[j]){
+					temp= ar[i];
+					ar[i]= ar[j];
+					ar[j]= temp;
 				}
-			}	
-		
-		}
+				
+			}
 	}
 	void show(int[] ar,int n){
 		System.out.println("sorted element is..");
@@ -21,7 +19,7 @@ class BubbySort{
 		}
 	}
 
-}
+} 
 
 class Bubble{
 	public static void main(String[] args) {
