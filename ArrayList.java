@@ -6,6 +6,6 @@ class ArrayList
 		list.add(1);
 		list.add(5);
 		list.arr(9);
-		System.out.print(list);
+		System.out.println(list);
 	}
 }
