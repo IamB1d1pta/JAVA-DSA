@@ -2,7 +2,7 @@
 
 class CirclePattern {
 	
-// function to print circle pattern
+
 static void printPattern(int radius) {
 
 	// dist represents distance to the center
