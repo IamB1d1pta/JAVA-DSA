@@ -1,7 +1,7 @@
 // Java program to Print Diamond Star Pattern
 // Using do-while loop
 
-// Importing input output classes
+
 import java.io.*;
 
 // Main class
